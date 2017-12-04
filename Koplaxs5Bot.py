@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(qr=True)
+cl.login(token="EnRIidoboT4vNh1Kefyc.BEl9dt8wGdIbrthb/4/33a.KyiiZ8p2oD2T0yjjQYOEojKbPiq8vzRsgpSAvCB3DJk=")
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(qr=True)
+ki.login(token="En9NcNnax0rLhIRCJhN8.PYMrhZGwJB/2GGmJ1qwEEa.NQN4E0tWbq/2H/Fu1rkVca7NwhmpAISb1Q0Oygy0SyQ=")
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(qr=True)
+kk.login(Token="EnwAPQTRKSNlM3UWQUSa.eH0SrjgVnNPLs/+4FC4eYG.mHJf96cf7mAl9e6AfA7imY2wWZ3AJa8mbZczBi5Xq1c=")
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
